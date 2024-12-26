@@ -5,12 +5,12 @@ ini_set('display_errors', 1);
 ini_set('display_startup_errors', 1);
 error_reporting(E_ALL);
 
-// Database configuration
-$servername = "127.0.0.1";  // IP address of the MySQL server (localhost)
-$port = "3306";
-$username = "u643844326_Mineth";
-$password = "Wifikun412"; // Change this if your database has a password
-$dbname = "u643844326_Airtm"; // Replace with your database name
+// Database configuration to save user credentials
+$servername = "";  // IP address of the MySQL server (localhost)
+$port = "";
+$username = "";
+$password = ""; // Change this if your database has a password
+$dbname = ""; // Replace with your database name
 
 // Include Composer's autoloader
 require 'vendor/autoload.php';
